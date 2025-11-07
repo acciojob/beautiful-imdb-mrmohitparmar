@@ -1,36 +1,20 @@
-/* Movie container */
+/* Container */
 .movie {
-  width: 60%;
-  margin: 50px auto;
-  background-color: lightblue;
-  padding: 20px;
-  border-radius: 12px;
-  text-align: center;
+	background-color: lightblue;
 }
 
-/* Movie image section */
-.movimg {
-  width: 80%;
-  margin: 0 auto 20px;
-}
-
-/* Movie poster */
+/* Image styling as per instruction */
 .moviePic {
-  width: 100%;
-  height: 350px;
-  object-fit: cover;
-  border-radius: 10px;
-  opacity: 0.9; /* slight fade effect */
+	height: 300px;
+	width: 100%;
+	opacity: 0.8;
 }
 
-/* Movie description */
+/* Movie description styling as per instruction */
 .movieDetail {
-  position: relative;
-  top: 10px;
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 18px;
-  color: #333;
-  line-height: 1.5;
+	position: relative;
+	top: 10px;
+	width: 80%;
+	text-align: center;
+	font-size: 18px;
 }
